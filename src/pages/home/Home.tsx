@@ -1,3 +1,6 @@
+import produtoHome from "../../assets/produtos_farmacia/produto_01.png"
+
+
 function Home () {
     return (
         <main className="min-h-[80vh] bg-emerald-50">
@@ -17,9 +20,11 @@ function Home () {
                 </div>
 
                 <div className="flex items-center justify-center bg-white rounded-3xl shadow-md min-h-80 p-10">
-                <p className="text-2xl font-semibold text-emerald-800">
-                    💊 Sua saúde em primeiro lugar
-                </p>
+                <img 
+                   src={produtoHome}
+                   alt="Produto de farmácia"
+                   className="w-full max-w-md object-contain"
+                />
                 </div>
             </section>
         </main>
