@@ -1,32 +1,52 @@
-# React + TypeScript + Vite
+# 💊 Farmácia
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Aplicação web de farmácia desenvolvida individualmente como **avaliação final de Front-end (Performance Goal)** durante o Bootcamp Java Full Stack da Generation Brasil.
 
-Currently, two official plugins are available:
+O projeto foi desenvolvido com o objetivo de aplicar na prática os conhecimentos adquiridos durante o bloco de Front-end, utilizando React e TypeScript para construção da interface e integração com API.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 💻 Sobre o projeto
 
-## React Compiler
+A aplicação simula o ambiente de uma farmácia e foi construída utilizando uma arquitetura baseada em componentes.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Nesta etapa do projeto, foram implementadas funcionalidades relacionadas ao gerenciamento de categorias, permitindo realizar operações de CRUD através da integração com uma API.
 
-## Expanding the Oxlint configuration
+## ✨ Funcionalidades
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Listagem de categorias
+- Cadastro de novas categorias
+- Edição de categorias
+- Exclusão de categorias
+- Navegação entre páginas com React Router
+- Integração com API utilizando Axios
+- Interface desenvolvida com React e Tailwind CSS
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+## 🛠️ Tecnologias
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
+- Axios
+- React Router
+- Phosphor Icons
+
+## 📚 Contexto
+
+Este projeto foi desenvolvido individualmente como **Performance Goal do Bloco 03** do Bootcamp Java Full Stack da Generation Brasil.
+
+A proposta da avaliação foi colocar em prática os conhecimentos adquiridos em desenvolvimento Front-end, desde a componentização da interface até o consumo de uma API.
+
+## 🚀 Próximos passos
+
+Após a conclusão do bootcamp, pretendo continuar evoluindo este projeto, adicionando novas funcionalidades e aprimorando a experiência da aplicação.
+
+Entre as melhorias planejadas estão:
+
+- expansão das funcionalidades relacionadas aos produtos;
+- melhorias de responsividade e experiência do usuário;
+- implementação de novas funcionalidades;
+- revisão e refatoração do código.
+
+---
+
+Desenvolvido por **Danielle Soares**.
